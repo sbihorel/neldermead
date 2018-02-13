@@ -1,6 +1,6 @@
 Package: neldermead
 Type: Package
-Title: R port of the Scilab neldermead module
+Title: R Port of the 'Scilab' Neldermead Module
 Version: $version$
 Date: $date$
 Author: Sebastien Bihorel, Michael Baudin (author of the original
