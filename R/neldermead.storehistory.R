@@ -29,7 +29,7 @@ neldermead.storehistory <- function(this=NULL,n=NULL,fopt=NULL,xopt=NULL,
                                       iter=iterations,
                                       key='historyxopt',
                                       value=xopt[1:n])
-    this$historysimplex[[iterations]] <- simplex(verbose=verbose,
+    this$historysimplex[[iterations]] <- osimplex(verbose=verbose,
       x=xcoords[1:nbve,1:n,drop=FALSE],
       fv=fv,
       n=n,
