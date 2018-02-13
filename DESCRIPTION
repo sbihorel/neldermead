@@ -6,7 +6,7 @@ Date: $date$
 Author: Sebastien Bihorel, Michael Baudin (author of the original
         module)
 Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
-Depends: optimbase (>= 1.0-9), optimsimplex (>= 1.0-5), methods
+Depends: optimbase (>= 1.0-9), optimsimplex (>= 1.0-7), methods
 Description: Provides several direct search optimization algorithms based on the
   simplex method. The provided algorithms are direct search algorithms, i.e.
   algorithms which do not use the derivative of the cost function. They are
