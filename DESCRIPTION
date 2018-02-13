@@ -1,8 +1,8 @@
 Package: neldermead
 Type: Package
 Title: R port of the Scilab neldermead module
-Version: 1.0-10
-Date: 2015-01-11
+Version: $version$
+Date: $date$
 Author: Sebastien Bihorel, Michael Baudin (author of the original
         module)
 Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
@@ -18,7 +18,3 @@ Description: Provides several direct search optimization algorithms based on the
   shape simplex).
 License: CeCILL-2
 LazyLoad: yes
-Packaged: 2015-01-11 12:56:33 UTC; sebastien
-NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2015-01-11 23:16:07
