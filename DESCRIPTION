@@ -1,12 +1,12 @@
 Package: neldermead
 Type: Package
 Title: R Port of the 'Scilab' Neldermead Module
-Version: $version$
+Version: 1.0-12
 Date: $date$
-Author: Sebastien Bihorel, Michael Baudin (author of the original
-        module)
-Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Authors@R: c(person("Sebastien","Bihorel",role=c("aut","cre"),email="sb.pmlab@gmail.com"),
+             person("Michael","Baudin",role=c("cph")))
 Depends: optimbase (>= 1.0-9), optimsimplex (>= 1.0-7), methods
+Suggests: knitr (>= 1.28),rmarkdown (>= 2.2)
 Description: Provides several direct search optimization algorithms based on the
   simplex method. The provided algorithms are direct search algorithms, i.e.
   algorithms which do not use the derivative of the cost function. They are
@@ -16,5 +16,7 @@ Description: Provides several direct search optimization algorithms based on the
   Nelder and Mead (unconstrained optimization with a variable shape simplex
   made), and Box's complex method (constrained optimization with a variable
   shape simplex).
-License: CeCILL-2
+License: file LICENSE
+Encoding: UTF-8
+VignetteBuilder: knitr
 LazyLoad: yes
